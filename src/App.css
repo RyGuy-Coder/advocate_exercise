@@ -1,0 +1,36 @@
+.cardContainer {
+    width: 200px;
+    height: 35rem;
+    overflow: auto;
+    border: 1px solid;
+    padding: 1rem;
+    margin: 0.5;
+    box-shadow: 2px 2px 1px lightgray;
+    
+}
+
+.cardContainer:hover{
+  box-shadow: 2px 2px 1px blue;
+}
+
+.listContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+.MuiCardMedia-img {
+  height: 9rem;
+}
+
+
+  /* img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    align-self: center;
+} */
